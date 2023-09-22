@@ -7,8 +7,8 @@
 }
 
 body {
-    width: 100%;
-    height: 100%;
+    width: 95%;
+    height: 95%;
     padding-left: 15px;
     padding-right: 15px;
     margin-right: auto;
@@ -97,7 +97,7 @@ img {
 
 .card-1,.card-2, .card-3{
     width: 300px;
-    height: 500px;
+    height: 400px;
     padding: 5px;
     border-radius: 10px;
     right: 8px;
@@ -263,8 +263,8 @@ p {
 
 .social-menu {
     position: relative;
-    top: 3vh;
-    right: -2vh;
+    top: 10vh;
+    right: 55vh;
     display: flex;
     list-style: none;
 }
@@ -276,6 +276,7 @@ p {
     padding: 0;
     margin: 0;
     display: flex;
+    justify-content: space-between;
 }
 
 .social-menu ul li {
