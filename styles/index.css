@@ -43,3 +43,110 @@ h1 {
         transform: scale(0);
     }
 }
+
+h2 {
+    color: blue;
+    font-size: 30px;
+    line-height: 79px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    animation-name: chameleon;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes chameleon {
+    0% {
+        color: red;
+    }
+
+    14.2999% {
+        color: orange;
+    }
+
+    28.5999% {
+        color: yellow;
+    }
+
+    42.8998% {
+        color: green;
+    }
+
+    57.1996% {
+        color: blue;
+    }
+
+    71.4995% {
+        color: indigo;
+    }
+
+    85.7994% {
+        color: violet;
+    }
+
+    100% {
+        color: rgb(40, 3, 3);
+    }
+}
+
+
+/* @keyframes acidTrip {
+    from {
+        filter: hue-rotate(0deg);
+    }
+
+    50% {
+        filter: hue-rotate(360deg);
+    }
+
+    to {
+        filter: hue-rotate(-360deg);
+    }
+} */
+
+.container2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 50px;
+}
+
+img {
+    height: 200px;
+    width: 260px;
+    border-radius: 10px;
+}
+
+.invitation-card-1,
+.happy-easter-card-2,
+.happynew-year-3 {
+    width: 300px;
+    height: 460px;
+    padding: 5px;
+    border-radius: 10px;
+    right: 8px;
+    display: flex;
+}
+
+.invitation-card-1 {
+
+    background-color: rgb(136 134 123);
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img-1 {
+    animation-name: stretch;
+    animation-duration: 3.5s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 25;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
+}
+
+
