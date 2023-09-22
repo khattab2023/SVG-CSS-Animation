@@ -37,7 +37,6 @@ h1 {
         opacity: 1;
         transform: scale(10);
     }
-
     to {
         opacity: 1;
         transform: scale(0);
@@ -60,50 +59,28 @@ h2 {
     0% {
         color: red;
     }
-
     14.2999% {
         color: orange;
     }
-
     28.5999% {
         color: yellow;
     }
-
     42.8998% {
         color: green;
     }
-
     57.1996% {
         color: blue;
     }
-
     71.4995% {
         color: indigo;
     }
-
     85.7994% {
         color: violet;
     }
-
     100% {
         color: rgb(40, 3, 3);
     }
 }
-
-
-/* @keyframes acidTrip {
-    from {
-        filter: hue-rotate(0deg);
-    }
-
-    50% {
-        filter: hue-rotate(360deg);
-    }
-
-    to {
-        filter: hue-rotate(-360deg);
-    }
-} */
 
 .container2 {
     display: flex;
@@ -118,19 +95,16 @@ img {
     border-radius: 10px;
 }
 
-.invitation-card-1,
-.happy-easter-card-2,
-.happynew-year-3 {
+.card-1,.card-2, .card-3{
     width: 300px;
-    height: 460px;
+    height: 500px;
     padding: 5px;
     border-radius: 10px;
     right: 8px;
     display: flex;
 }
 
-.invitation-card-1 {
-
+.card-1 {
     background-color: rgb(136 134 123);
     flex-wrap: nowrap;
     flex-direction: column;
@@ -154,15 +128,13 @@ img {
         transform: scale(0.5);
         border-radius: 100%;
     }
-
     50% {}
-
     100% {
         transform: scale(1.0);
     }
 }
 
-.happy-easter-card-2 {
+.card-2 {
     background-color: rgb(222 222 226);
     flex-wrap: nowrap;
     flex-direction: column;
@@ -174,8 +146,8 @@ img {
     height: 252px;
     width: 353px;
     animation:
-        pulse 3s ease infinite alternate,
-        nudge 5s linear infinite alternate;
+    pulse 3s ease infinite alternate,
+    nudge 5s linear infinite alternate;
     border-radius: 100%;
 }
 
@@ -193,7 +165,7 @@ img {
     }
 }
 
-.happynew-year-3 {
+.card-3 {
     background-color: #ccc0b3;
     flex-wrap: nowrap;
     flex-direction: column;
@@ -211,7 +183,6 @@ img {
     from {
         clip-path: polygon(100% 0, 100% 0, 100% 0, 100% 0, 0 100%, 0 100%, 0 100%, 0 100%);
     }
-
     10%,
     to {
         clip-path: polygon(0 50%, 0 0, 100% 0, 100% 50%, 0 50%, 0 100%, 100% 100%, 100% 50%);
@@ -285,7 +256,6 @@ p {
     0% {
         transform: rotate(0deg);
     }
-
     100% {
         transform: rotate(360deg);
     }
@@ -293,7 +263,7 @@ p {
 
 .social-menu {
     position: relative;
-    top: 5vh;
+    top: 3vh;
     right: -2vh;
     display: flex;
     list-style: none;
