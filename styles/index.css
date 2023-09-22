@@ -192,3 +192,29 @@ img {
         transform: translate(100px, 0);
     }
 }
+
+.happynew-year-3 {
+    background-color: #ccc0b3;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img-3 {
+    display: block;
+    position: relative;
+    animation: f 6s infinite;
+}
+
+@keyframes f {
+    from {
+        clip-path: polygon(100% 0, 100% 0, 100% 0, 100% 0, 0 100%, 0 100%, 0 100%, 0 100%);
+    }
+
+    10%,
+    to {
+        clip-path: polygon(0 50%, 0 0, 100% 0, 100% 50%, 0 50%, 0 100%, 100% 100%, 100% 50%);
+    }
+}
+
