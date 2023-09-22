@@ -210,31 +210,37 @@ p {
 ._1 {
     background: #b07843;
     color: white;
+    transition: width 2s, height 4s;
 }
 
 ._1:hover {
     transform: scale(1.1);
     background-color: #4b210e;
+    width: 260px;
 }
 
 ._2 {
     background: #93b0be;
     color: white;
+    transition: width 2s, height 4s;
 }
 
 ._2:hover {
     transform: scale(1.1);
     background-color: #071e23c6;
+    width: 260px;
 }
 
 ._3 {
     background: #efd197;
     color: white;
+    transition: width 2s, height 4s;
 }
 
 ._3:hover {
     transform: scale(1.1);
     background-color: #433923;
+    width: 260px;
 }
 
 .circle {
@@ -334,4 +340,22 @@ p {
 
 .social-menu ul li:nth-child(6) a:hover {
     background-color: #2dd146;
+}
+.raster {
+    width: 200px;
+}
+
+.vector {
+    width: 200px;
+}
+
+/*.kiwi-container {
+    width: 300px;
+    height: 300px;
+    background-image: url(../images/kiwi.svg);
+}*/
+
+.ellipse {
+    fill: darkgreen;
+    stroke: darkmagenta;
 }
