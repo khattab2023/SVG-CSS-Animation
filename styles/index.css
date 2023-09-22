@@ -162,3 +162,34 @@ img {
     }
 }
 
+.happy-easter-card-2 {
+    background-color: rgb(222 222 226);
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img-2 {
+    height: 252px;
+    width: 353px;
+    animation:
+        pulse 3s ease infinite alternate,
+        nudge 5s linear infinite alternate;
+    border-radius: 100%;
+}
+
+@keyframes pulse {
+
+    0%,
+    100% {
+        transform: translate(22, 0);
+    }
+    50% {
+        transform: translate(150px, 0px);
+    }
+    50% {
+        transform: translate(100px, 0);
+    }
+}
+
