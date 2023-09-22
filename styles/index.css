@@ -266,3 +266,30 @@ p {
     background-color: #433923;
 }
 
+.circle {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 50%;
+    margin-left: -4%;
+    margin-bottom: 30px;
+    border-radius: 50%;
+    border: 5px solid #073143;
+    animation-name: spin;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+
