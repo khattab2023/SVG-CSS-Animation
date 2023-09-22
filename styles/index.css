@@ -218,3 +218,51 @@ img {
     }
 }
 
+p {
+    text-align: left;
+    font: bold;
+    padding: 15px;
+
+}
+
+._1,
+._2,
+._3 {
+    width: 197px;
+    height: 52px;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 4px;
+    border: none;
+}
+
+._1 {
+    background: #b07843;
+    color: white;
+}
+
+._1:hover {
+    transform: scale(1.1);
+    background-color: #4b210e;
+}
+
+._2 {
+    background: #93b0be;
+    color: white;
+}
+
+._2:hover {
+    transform: scale(1.1);
+    background-color: #071e23c6;
+}
+
+._3 {
+    background: #efd197;
+    color: white;
+}
+
+._3:hover {
+    transform: scale(1.1);
+    background-color: #433923;
+}
+
