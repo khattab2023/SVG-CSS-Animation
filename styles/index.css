@@ -243,19 +243,39 @@ p {
     width: 260px;
 }
 
+.w3{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 77px;
+    animation: f 6s infinite;
+    flex-direction: column;
+    align-items: center;
+}
+.w3-2{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 77px;
+    animation: pulse 3s ease infinite alternate, nudge 5s linear infinite alternate;
+}
+
 .circle {
     width: 100px;
     height: 100px;
+    display: flex;
     position: relative;
     left: 50%;
-    margin-left: -4%;
-    margin-bottom: 30px;
+    margin-left: -3%;
+    margin-top: -56px;
+    margin-bottom: 15px;
     border-radius: 50%;
-    border: 5px solid #073143;
+    border: 1px solid #073143;
     animation-name: spin;
-    animation-duration: 2s;
+    animation-duration: 9s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
+    justify-content: center;
 }
 
 @keyframes spin {
@@ -270,7 +290,7 @@ p {
 .social-menu {
     position: relative;
     top: 10vh;
-    right: 55vh;
+    right: 53vh;
     display: flex;
     list-style: none;
 }
