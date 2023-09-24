@@ -20,6 +20,7 @@ nav{
     width: 100%;
     display: flex;
     justify-content: center;
+
 }
 
 h1 {
@@ -29,10 +30,12 @@ h1 {
     color: #073143;
     font-size: 92px;
     margin-top: 10px;
-    animation-name: acidTrip;
     animation-timing-function: ease-in-out;
     animation-name: plummit;
     animation-duration: 5s;
+}
+._invi{
+    margin-left: 5px;
 }
 
 @keyframes plummit {
